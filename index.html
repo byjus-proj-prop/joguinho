@@ -43,7 +43,7 @@
                 height: 90px;
             }
         }
-        @media all and (min-width: 22.5cm) and (min-height: 13cm){
+        @media all and (min-width: 22.5cm){
             #dogCorpo{
                 width: 183px;
                 height: 135px;
@@ -53,15 +53,29 @@
                 height: 135px;
             }  
         }
-        @media all and (max-width: 34cm) and (max-height: 15cm){
+        @media all  and (min-height: 13cm){
             #dogCorpo{
-                width: 183px;
                 height: 135px;
             }
             #dogHead{
-                width: 183px;
                 height: 135px;
+            }
+        }
+        @media all and (max-width: 34cm){
+            #dogCorpo{
+                width: 183px;
+            }
+            #dogHead{
+                width: 183px;
             }  
+        }
+        @media all  and (max-height: 15cm){
+            #dogCorpo{
+                height: 135px;
+            }
+            #dogHead{
+                height: 135px;
+            }
         }
 
     </style>
